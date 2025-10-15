@@ -16,6 +16,21 @@
 
 ---
 
+## 📑 Table of Contents
+- [Project Overview](#project-overview)
+- [Motivation](#motivation)
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Results & Evaluation](#results--evaluation)
+- [Getting Started](#getting-started)
+- [Example Usage](#example-usage)
+- [Repository Structure](#repository-structure)
+- [Future Improvements](#future-improvements)
+- [References](#references)
+- [License](#license)
+
+---
+
 ## 📘 Project Overview
 
 This project demonstrates a complete **machine learning regression pipeline** that predicts **power plant electrical output (MW)** using environmental and operational parameters.  
