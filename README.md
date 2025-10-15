@@ -203,8 +203,8 @@ See the [LICENSE](LICENSE) file for details.
 ### 👤 Author
 
 **Arian Jr.**  
-📧 [My Arian](arianjafar59@gmail.com)  
-🔗 [GitHub](https://github.com/ArianJr)
+📧 [My Email](arianjafar59@gmail.com)  
+🔗 [My GitHub](https://github.com/ArianJr)
 
 ---
 
