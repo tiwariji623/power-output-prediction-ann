@@ -81,9 +81,6 @@ Accurate prediction of power output helps:
 - ✅ Predicted vs Actual Scatter Plot  
 - ✅ Residual Distribution Plot  
 
-<p align="center">
-  <img src="https://github.com/ArianJr/power-output-prediction-ann/assets/plot-example" alt="results-plot" width="500">
-</p>
 ![Training vs Validation Loss](assets/results_training_validation_loss.png)
 ![Actual vs Predicted Power Output](assets/results_actual_vs_predicted.png)
 ![Residual Distribution](assets/results_residuals_distribution.png)
