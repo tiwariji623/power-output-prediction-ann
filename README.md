@@ -1,103 +1,206 @@
-# ⚡ Power Output Prediction using Artificial Neural Networks (ANN)
+<h1 align="center">⚡ Power Output Prediction using Artificial Neural Networks (ANN)</h1>
 
-## 📌 Overview
-This project demonstrates a deep learning approach to predicting the electrical power output of a Combined Cycle Power Plant (CCPP) using an Artificial Neural Network (ANN). The model is trained on real-world data and achieves high predictive accuracy, making it suitable for energy forecasting and operational optimization.
-
----
-
-## 📊 Dataset
-- **Source**: [UCI Machine Learning Repository – CCPP Dataset](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
-- **Samples**: 9,568 observations
-- **Features**:
-  - Ambient Temperature (AT)
-  - Ambient Pressure (AP)
-  - Relative Humidity (RH)
-  - Exhaust Vacuum (V)
-- **Target**: Electrical energy output (PE)
+<p align="center">
+  <b>Predicting the electrical power output of a Combined Cycle Power Plant using Deep Learning</b><br>
+  <sub>Built with TensorFlow • Keras • NumPy • Scikit-Learn • Matplotlib</sub>
+</p>
 
 ---
 
-## 🧠 Model Architecture
-- Framework: **Keras with TensorFlow backend**
-- Architecture:
-  - Input layer with 4 neurons
-  - Two hidden layers with ReLU activation
-  - Output layer with linear activation
-- Optimizer: **Adam**
-- Loss function: **Mean Squared Error (MSE)**
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="license"/>
+  <img src="https://img.shields.io/badge/Python-3.8+-green.svg" alt="python"/>
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-orange.svg" alt="tensorflow"/>
+  <img src="https://img.shields.io/github/last-commit/ArianJr/power-output-prediction-ann?style=flat-square" alt="last commit"/>
+</p>
 
 ---
 
-## 📈 Performance Highlights
-- **R² Score**: `0.93` — excellent predictive power
-- **Training MSE**: `0.0032`  
-- **Validation MSE**: `0.0037`
-
-> The model explains 93% of the variance in power output, demonstrating strong generalization across unseen data.
-
-### 🔍 Visual Insights
-- 📉 Training vs. Validation loss curves  
-- 📊 Predicted vs. Actual scatter plot  
-- 📐 Residual distribution
+## 📑 Table of Contents
+- [Project Overview](#-project-overview)
+- [Motivation](#-motivation)
+- [Dataset](#-dataset)
+- [Model Architecture](#-model-architecture)
+- [Results & Evaluation](#-results--evaluation)
+- [Getting Started](#-getting-started)
+- [Example Usage](#-example-usage)
+- [Repository Structure](#-repository-structure)
+- [Future Improvements](#-future-improvements)
+- [References](#-references)
+- [License](#-license)
 
 ---
 
-## 🗂️ Repository Structure
+## 📘 Project Overview
 
-| File/Folder                     | Description                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| `power_output_prediction_ann.ipynb` | Main notebook with full workflow: data loading, preprocessing, model training, evaluation, and visualization |
-| `Folds5x2_pp.xlsx`             | Original dataset (excluded via `.gitignore`)                               |
-| `.gitignore`                   | Specifies files/folders to exclude from Git tracking (e.g., datasets, logs, model weights) |
-| `requirements.txt`            | Python dependencies for reproducibility                                     |
-| `LICENSE`                     | MIT License for open-source distribution                                   |
-| `README.md`                   | Project documentation and portfolio presentation                           |
+This project demonstrates a complete **machine learning regression pipeline** that predicts **power plant electrical output (MW)** using environmental and operational parameters.  
+The solution is implemented with a **fully connected Artificial Neural Network (ANN)**, trained on the **Combined Cycle Power Plant (CCPP)** dataset from the **UCI Machine Learning Repository**.
+
+The notebook walks through all steps — **data preprocessing → model training → evaluation → visualization** — in a clear, educational manner.
+
+---
+
+## 🎯 Motivation
+
+Accurate prediction of power output helps:
+- Optimize power generation and resource allocation  
+- Support grid management and forecasting systems  
+- Serve as a case study for regression using neural networks in industrial contexts  
+
+---
+
+## 🧠 Dataset
+
+- **Source:** [UCI Machine Learning Repository — CCPP Dataset](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)  
+- **Samples:** 9,568  
+- **Features:**
+  - Ambient Temperature (AT, °C)
+  - Ambient Pressure (AP, mbar)
+  - Relative Humidity (RH, %)
+  - Exhaust Vacuum (V, cm Hg)
+- **Target:** Electrical energy output (PE, MW)
+
+**Preprocessing includes:**
+- Missing value handling  
+- Feature scaling / normalization  
+- Train-validation-test split  
+
+---
+
+## 🧩 Model Architecture
+
+| Layer | Units | Activation | Description |
+|-------|--------|-------------|--------------|
+| Input | 4 | — | Input features (AT, AP, RH, V) |
+| Dense | 128 | ReLU | Hidden layer 1 |
+| Dense | 64 | ReLU | Hidden layer 2 |
+| Output | 1 | Linear | Predicted Power Output |
+
+**Training Details:**
+- **Optimizer:** Adam  
+- **Loss:** Mean Squared Error (MSE)  
+- **Metrics:** R², MAE, RMSE  
+- **Callbacks:** Early Stopping, Learning Rate Scheduler  
+
+---
+
+## 📊 Results & Evaluation
+
+| Metric | Train | Validation |
+|---------|--------|------------|
+| MSE | 0.0032 | 0.0037 |
+| R²  | 0.94 | 0.93 |
+
+**Visual Insights:**
+- ✅ Training vs Validation Loss Curve
+  
+![Training vs Validation Loss](assets/results_training_validation_loss.png)
+
+- ✅ Predicted vs Actual Scatter Plot
+  
+![Actual vs Predicted](assets/results_actual_vs_predicted.png)
+
+- ✅ Residual Distribution Plot
+  
+![Residuals Distribution](assets/results_residuals_distribution.png)
+
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/ArianJr/power-output-prediction-ann.git
-cd power-output-prediction-ann
-```
+### 🧰 Requirements
 
-### 2. Create virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-```
+| Dependency | Version |
+|-------------|----------|
+| Python | 3.8+ |
+| TensorFlow | 2.x |
+| NumPy | ≥1.22 |
+| Scikit-learn | ≥1.0 |
+| Matplotlib | ≥3.5 |
 
-### 3. Install dependencies
+Install everything with:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Launch notebook
+### ▶️ Running the Project
+
+Run the notebook interactively:
 ```bash
 jupyter notebook power_output_prediction_ann.ipynb
 ```
 
 ---
 
-## 📜 License
-This project is licensed under the MIT License. You are free to use, modify, and distribute with proper attribution.
+## 💡 Example Usage
+
+```bash
+from predictor import PowerPredictor
+
+# Load trained model
+model = PowerPredictor.load("models/ann_model.pkl")
+
+# Predict power output for new sample
+X_new = [[25.0, 1015.2, 60.3, 40.1]]
+y_pred = model.predict(X_new)
+
+print(f"⚡ Predicted Power Output: {y_pred[0]:.2f} MW")
+```
 
 ---
 
-## 🙌 Acknowledgments
-- UCI ML Repository for the dataset
-- TensorFlow and Keras teams
-- Open-source contributors and the GitHub community
+## 🗂 Repository Structure
+
+| 📁 Folder / 📄 File | 📝 Description |
+|----------------------|----------------|
+| **`.gitignore`** | Specifies which files and folders should be excluded from Git tracking (e.g., datasets, logs, model weights). |
+| **`Folds5x2_pp.xlsx`** | The original Combined Cycle Power Plant dataset from UCI ML Repository. |
+| **`power_output_prediction_ann.ipynb`** | Main Jupyter Notebook containing the full workflow — data loading, preprocessing, model training, and evaluation. |
+| **`requirements.txt`** | List of Python dependencies required to reproduce the project environment. |
+| **`README.md`** | Project documentation and portfolio presentation. |
+| **`LICENSE`** | MIT License for open-source usage. |
+
 
 ---
 
-## 🎯 Portfolio Value
-This project showcases:
-- Real-world regression modeling with deep learning
-- Clean code, modular structure, and reproducible results
-- Strong metric reporting and visual interpretability
-- Ethical open-source practices and professional presentation
+## 🌱 Future Improvements
+
+- 🔍 Hyperparameter optimization (Grid / Bayesian search)
+- 🧮 Model benchmarking (ANN vs RF vs XGBoost)
+- 🧠 Cross-validation and uncertainty quantification
+- ⚙️ Deployment as REST API (FastAPI / Flask)
+- 📈 Integration with MLflow or Weights & Biases
 
 ---
+
+## 📚 References
+
+- Dataset: [UCI Machine Learning Repository – Combined Cycle Power Plant Dataset](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
+- Frameworks: TensorFlow, Keras, Scikit-Learn
+- Paper: Pınar Tüfekci (2014) — Prediction of full load electrical power output using machine learning methods
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/ArianJr" target="_blank">ArianJr</a>
+</p>
+
+<p align="center">
+  <sub>⭐ If you found this project useful, please consider giving it a star! It helps others discover it and supports my work.</sub>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ArianJr/power-output-prediction-ann?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/ArianJr/power-output-prediction-ann?style=social" alt="GitHub forks">
+</p>
