@@ -157,17 +157,21 @@ print(f"⚡ Predicted Power Output: {y_pred[0]:.2f} MW")
 
 ---
 
-## 🗂 Repository Structure
+### 📁 Repository Structure
 
-| 📁 Folder / 📄 File | 📝 Description |
-|----------------------|----------------|
-| **`.gitignore`** | Specifies which files and folders should be excluded from Git tracking (e.g., datasets, logs, model weights). |
-| **`Folds5x2_pp.xlsx`** | The original Combined Cycle Power Plant dataset from UCI ML Repository. |
-| **`power_output_prediction_ann.ipynb`** | Main Jupyter Notebook containing the full workflow — data loading, preprocessing, model training, and evaluation. |
-| **`requirements.txt`** | List of Python dependencies required to reproduce the project environment. |
-| **`README.md`** | Project documentation and portfolio presentation. |
-| **`LICENSE`** | MIT License for open-source usage. |
-
+| Path                             | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `.gitignore`                     | Specifies files and folders to exclude from Git tracking                    |
+| `Folds5x2_pp.xlsx`               | Dataset used for training and evaluation                                    |
+| `LICENSE`                        | MIT License for open-source sharing                                         |
+| `README.md`                      | Project overview, documentation, and visual insights                        |
+| `requirements.txt`              | Python dependencies for reproducibility                                     |
+| `power_output_prediction_ann.ipynb` | Jupyter notebook containing full model workflow and evaluation         |
+| `assets/`                        | Folder containing result plots and project thumbnail                        |
+| ├── `power_output_thumbnail.png`| Thumbnail image summarizing the project                                     |
+| ├── `results_training_validation_loss.png` | Line plot of training vs validation loss                        |
+| ├── `results_actual_vs_predicted.png`     | Scatter plot comparing actual vs predicted outputs              |
+| └── `results_residuals_distribution.png`   | Histogram of residuals distribution                              |
 
 ---
 
