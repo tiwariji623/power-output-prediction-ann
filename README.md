@@ -135,12 +135,12 @@ print(f"⚡ Predicted Power Output: {y_pred[0]:.2f} MW")
 
 | 📁 Folder / 📄 File | 📝 Description |
 |----------------------|----------------|
-| 📄 **`.gitignore`** | Specifies which files and folders should be excluded from Git tracking (e.g., datasets, logs, model weights). |
-| 📄 **`Folds5x2_pp.xlsx`** | The original Combined Cycle Power Plant dataset from UCI ML Repository. |
-| 📄 **`power_output_prediction_ann.ipynb`** | Main Jupyter Notebook containing the full workflow — data loading, preprocessing, model training, and evaluation. |
-| 📄 **`requirements.txt`** | List of Python dependencies required to reproduce the project environment. |
-| 📄 **`README.md`** | Project documentation and portfolio presentation. |
-| 📄 **`LICENSE`** | MIT License for open-source usage. |
+| **`.gitignore`** | Specifies which files and folders should be excluded from Git tracking (e.g., datasets, logs, model weights). |
+| **`Folds5x2_pp.xlsx`** | The original Combined Cycle Power Plant dataset from UCI ML Repository. |
+| **`power_output_prediction_ann.ipynb`** | Main Jupyter Notebook containing the full workflow — data loading, preprocessing, model training, and evaluation. |
+| **`requirements.txt`** | List of Python dependencies required to reproduce the project environment. |
+| **`README.md`** | Project documentation and portfolio presentation. |
+| **`LICENSE`** | MIT License for open-source usage. |
 
 
 ---
