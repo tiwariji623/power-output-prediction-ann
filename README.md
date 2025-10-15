@@ -16,6 +16,10 @@
 
 ---
 
+![Power Output Thumbnial](assets/power_output_thumbnail.png)
+
+---
+
 ## 📑 Table of Contents
 - [Project Overview](#-project-overview)
 - [Motivation](#-motivation)
