@@ -80,7 +80,8 @@ Accurate prediction of power output helps:
 - ✅ Training vs Validation Loss Curve  
 - ✅ Predicted vs Actual Scatter Plot  
 - ✅ Residual Distribution Plot
-- 
+
+
 ![Training vs Validation Loss](assets/results_training_validation_loss.png)
 ![Actual vs Predicted](assets/results_actual_vs_predicted.png)
 ![Residuals Distribution](assets/results_residuals_distribution.png)
