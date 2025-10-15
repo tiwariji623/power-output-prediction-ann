@@ -16,7 +16,9 @@
 
 ---
 
-<img src="assets/power_output_thumbnail.png" alt="Project Thumbnail" width="600"/>
+<p align="center">
+  <img src="assets/power_output_thumbnail.png" alt="Project Thumbnail" width="600"/>
+</p>
 
 ---
 
