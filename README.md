@@ -200,6 +200,14 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
+### 👤 Author
+
+**Arian Jr.**  
+📧 [My Arian](arianjafar59@gmail.com)  
+🔗 [GitHub](https://github.com/ArianJr)
+
+---
+
 <p align="center">
   Made with ❤️ by <a href="https://github.com/ArianJr" target="_blank">ArianJr</a>
 </p>
